@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply font-serif text-pink-400 text-3xl p-[0.1rem]
+    }
+
+    ;
+
+    h2 {
+        @apply font-serif text-2xl text-gray-500
+    }
+
+    ;
+
+    h3 {
+        @apply font-serif text-xl text-blue-400
+    }
+
+    ;
+}
+
+@layer components {
+    .manas {
+        @apply bg-yellow-200 w-full h-40
+    }
+}
+
+/* @tailwind utilities; */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); */
